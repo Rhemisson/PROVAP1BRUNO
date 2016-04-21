@@ -1,0 +1,30 @@
+
+body{
+    background-image: url("Imagens/Instrumentos.jpg");
+   width:1200px;
+   color:black;
+   font-family:arial;
+}
+
+#size{
+	position:absolute;
+	left:45%;
+	top:50%;
+	margin-top:-110px;
+	margin-left:40px;
+
+	
+}
+
+#size1{
+	color:black;
+        font-family:arial;
+	position:absolute;
+	
+	
+}
+
+h1{
+ color:gold;
+}    
+
