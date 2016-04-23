@@ -1,7 +1,3 @@
-
-package TratamentoLogin;
-<%@page contentType="text/html" pageEncoding="UTF-8"%>
-
 <!DOCTYPE html>
 <html>
     <head>
@@ -11,10 +7,10 @@ package TratamentoLogin;
         <link rel="stylesheet" type="text/css" href="pa.css" />
     </head>
     <body>
-        <form id="size" action="acesso" method="POST" >
+        <form id="size" action="TratarLoginSrv" method="POST">
                <b>Login:</b>
                </br>
-               
+               <a href="WEB-INF/web.xml"></a>
                <input type="text" name="Nome" placeholder="Informe seu Nome">
                <br>
                <b>Senha:</b>
@@ -25,9 +21,9 @@ package TratamentoLogin;
                
          <div id="size1">
              <label class="checkbox"><input type="checkbox"/>Lembrar a Senha</input></label>
-             <br>
-             <button class="btn" type="submit">Entrar</button>
-             <input type="button" value="Cadastrar" onclick="window.open('')">
+             <br>            
+             <button class="btn" type="submit" >Entrar</button>
+             <input type="button" value="Cadastrar" />
          </div>
                
         </form>    

@@ -16,7 +16,7 @@ import javax.servlet.http.HttpSession;
 
 public class AdicionarProdutoCarrinho extends HttpServlet {
 
-    public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
+    public void doPOST(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
         
         HttpSession sessao = request.getSession();
         
@@ -27,12 +27,12 @@ public class AdicionarProdutoCarrinho extends HttpServlet {
         PrintWriter out = response.getWriter();
         out.println("<html>");
         out.println("<head>");
-        out.println("<title>Ecommerce : Academia do Java</title>");
+        out.println("<title>Ecom Produtos</title>");
         out.println("<meta http-equiv='Content-Type' content='text/html; charset=utf-8'>");
-        out.println("<link href= 'aj.css' rel='stylesheet' type='text/css'></link>");
+        out.println("<link href= 'pa.css' rel='stylesheet' type='text/css'></link>");
         out.println("</head>");
         out.println("<body>");
-        out.println("<H3>Adicionando produtos no carrinho de compras</H3>");
+        out.println("<H3>Adicionar produtos no carrinho</H3>");
 
         // obtendo os parametros de request...
         String strIdProduto = request.getParameter("idProduto");

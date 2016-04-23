@@ -14,11 +14,10 @@ public class GerenciadorConexoes {
      * esteja funcionando
      */
     private static final String DRIVER_MYSQL = "com.mysql.jdbc.Driver";
-    
-    private static final String BANCO_DE_DADOS = "sample";
+    private static final String BANCO_DE_DADOS = "lojavins bd";
     private static final String IP = "localhost"; //"192.168.0.1";
-    private static final String USUARIO = "app";
-    private static final String SENHA = "app";
+    private static final String USUARIO = "root";
+    private static final String SENHA = "root123";
 
     private static final String STR_MYSQL = "jdbc:mysql://" + IP + ":3306/" + BANCO_DE_DADOS;
     public static Connection getConexao() throws JavaWebException {

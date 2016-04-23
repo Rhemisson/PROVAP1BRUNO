@@ -21,6 +21,10 @@
         <servlet-name>LogoutServlet</servlet-name>
         <servlet-class>br.javaweb.encom.LogoutServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>TratarLoginSrv</servlet-name>
+        <servlet-class>br.javaweb.ecom.TratarLoginSrv</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>catalogo</servlet-name>
         <url-pattern>/catalogoProdutos</url-pattern>
@@ -37,4 +41,9 @@
         <servlet-name>LogoutServlet</servlet-name>
         <url-pattern>/logout</url-pattern>
     </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>TratarLoginSrv</servlet-name>
+        <url-pattern>/TratarLoginSrv</url-pattern>
+    </servlet-mapping>
+   
 </web-app>

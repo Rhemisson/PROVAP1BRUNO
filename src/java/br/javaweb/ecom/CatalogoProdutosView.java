@@ -13,15 +13,15 @@ import javax.servlet.http.*;
 
 public class CatalogoProdutosView extends HttpServlet {
 
-    public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
+    public void doGET(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
         response.setContentType("text/html");
         // Obtencao do canal de envio de dados para o cliente
         PrintWriter out = response.getWriter();
         out.println("<html>");
         out.println("<head>");
-        out.println("<title>Catalogo Produtos - Academia do Java</title>");
+        out.println("<title>Catalogo Produtos</title>");
         out.println("<meta http-equiv='Content-Type' content='text/html; charset=UTF-8'>");
-        out.println("<link href= 'aj.css' rel='stylesheet' type='text/css'>");
+        out.println("<link href= 'pa.css' rel='stylesheet' type='text/css'>");
         out.println("</head>");
         out.println("<body>");
          out.println("<a href=\"logout\">Clique aqui para sair do sistema</a>");
@@ -54,7 +54,7 @@ public class CatalogoProdutosView extends HttpServlet {
                 out.println("<TD width = '%10' class='gridCampo'>"+ prod.getCodigo() + "</TD>");
                 out.println("<TD width = '%10'  class='gridCampo'>" + prod.getDescricao() + "</TD>");
                 out.println("<TD width = '%10' class='gridCampo'>"+ prod.getPreco()+ "</TD>");
-                out.println("<TD width = '%20' colspan = '2'><A HREF= 'adicionarProdutoCarrinho?idProduto=" + prod.getId()+"' ><IMG SRC = 'imagem/carrinho.gif'/></A></TD>");
+                out.println("<TD width = '%20' colspan = '2'><A HREF= 'adicionarProdutoCarrinho?idProduto=" + prod.getId()+"' ><IMG SRC = 'imagens/carrinho.png'/></A></TD>");
                 out.println("</TR>");
 
             }

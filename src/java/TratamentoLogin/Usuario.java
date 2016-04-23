@@ -13,6 +13,16 @@ public class Usuario {
         return usuario;
     }
 
+    public Usuario(String usuario, String senha) {
+        this.usuario = usuario;
+        this.senha = senha;
+    }
+
+    public Usuario() {
+    }
+    
+    
+
     public void setUsuario(String usuario) {
         this.usuario = usuario;
     }

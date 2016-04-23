@@ -6,19 +6,15 @@
 package TratamentoLogin;
 
 
-/**
- *
- * @author Hemis
- */
 public class TLoginN {
 
-    public boolean verificaLogin(Usuario usuario) {
-
+   public boolean verificaLogin(Usuario usuario) {
+   
         if("Rhemisson".equals(usuario.getUsuario()) && "123456".equals(usuario.getSenha())) {
-            return true;
+           
 
         }
         
-        return false;
-    }
-}
+        return true;
+   }    
+}          

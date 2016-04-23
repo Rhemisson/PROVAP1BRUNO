@@ -1,4 +1,6 @@
-
+head{
+   background-image: url("Imagens/Old-School-logotipo.jpg"); 
+}
 body{
     background-image: url("Imagens/Instrumentos.jpg");
    width:1200px;
