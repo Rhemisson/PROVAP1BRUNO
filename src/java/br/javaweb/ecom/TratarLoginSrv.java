@@ -63,7 +63,7 @@ public class TratarLoginSrv extends HttpServlet {
                 out.println("<title>Servlet TratarLoginServlet</title>");
                 out.println("</head>");
                 out.println("<body>");
-                out.println("<h1> Usuario ok " + objUsuario.getUsuario() + "</h1>");
+                out.println("<h1> Bem-Vindo " + objUsuario.getUsuario() + "</h1>");
                 response.sendRedirect("/Site-Instrumentos/FormCadastro.jsp");
                 out.println("</body>");
                 out.println("</html>");

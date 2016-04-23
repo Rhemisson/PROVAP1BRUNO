@@ -9,12 +9,12 @@
 <html>
     <head>
         <link rel="stylesheet" type="text/css" href="pa.css" />
-        <link type="text/html" href="Index.jsp">
+        <link type="text/html" href="index.jsp">
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>TELA DE CADASTRO</title>
     </head>
-    <body>
-        <form action="FormCadastro" method="POST">
+    <body id="back"> 
+        <form action="FormCadastro" method="Post">
         <fieldset>
             <legend>Dados de Cadastro</legend>
           <table cellspacing="10">
@@ -162,7 +162,7 @@
  </table>
 </fieldset>
  <br />
- <input type="submit">
+ <input type="submit" onclick="windows.open('index.jsp')">
  <input type="reset" value="Limpar">
           </table>    
        </form>    

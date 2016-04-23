@@ -49,7 +49,7 @@ public class LogoutServlet extends HttpServlet {
             out.println("</head>");
             out.println("<body>");
             out.println("<h1>Usuario saiu do sistema</h1>");
-            out.println("<a href=\"index.html\">Clique aqui para acessar o sistema</a>");
+            out.println("<a href=\"index.jsp\"></a>");
             out.println("</body>");
             out.println("</html>");
         } finally {

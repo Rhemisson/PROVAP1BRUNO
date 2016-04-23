@@ -59,7 +59,7 @@ public class AdicionarProdutoCarrinho extends HttpServlet {
         out.println("<br/>nome: <strong>" + prod.getNome() + "</strong>");
         out.println("<br/>descri&ccedil;&atilde;o: <strong>" + prod.getDescricao() + "</strong>");
         out.println("<br/>pre&ccedil;o: <strong>" + prod.getPreco() + "</strong>");
-        out.println("<br/><img src='imagem/" + prod.getImage() + "' />");
+        out.println("<br/><img src='imagens/carrinho.png" + prod.getImage() + "' />");
         out.println("</body>");
         out.println("</html>");
         

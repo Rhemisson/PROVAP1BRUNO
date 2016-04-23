@@ -136,7 +136,7 @@ public class ProdutosDAOP implements ProdutosDAO {
             Produto[] produtos = {
                 new Produto(86, "Guitarra", "guitar001", "Instrumento", 80, "guitarra.png"),
                 new Produto(85, "Contra-Baixo", "baixo003", "Instrumento", 18, "contra-baixo.png"),
-                new Produto(82, "Bateria", "bat004", "Instrumento", 1750, "Bateria.gif"),
+                new Produto(82, "Bateria", "bat004", "Instrumento", 1750, "Bateria1.gif"),
                 new Produto(83, "trompete", "trom001", "Instrumento", 13, "trompete.gif"),
                 new Produto(79, "Afinador", "afin002", "Instrumento", 15, "Afinador.gif")
             };

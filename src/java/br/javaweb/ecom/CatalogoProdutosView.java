@@ -34,7 +34,7 @@ public class CatalogoProdutosView extends HttpServlet {
         out.println("<TD width = '%20'>Imagem</TD>");
         out.println("<TD width = '%10' >Nome</TD>");
         out.println("<TD width = '%10' >Codigo</TD>");
-        out.println("<TD width = '%10'  >Descri&ccedil;&atilde;o</TD>");
+        out.println("<TD width = '%10'  >Descricao</TD>");
         out.println("<TD width = '%10' >Pre&ccedil;o</TD>");
         out.println("<TD width = '%20' colspan = '2'>Comprar</TD>");
         out.println("</TR>");

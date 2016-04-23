@@ -131,7 +131,7 @@ SET character_set_client = @saved_cs_client;
 
 LOCK TABLES `produtos` WRITE;
 /*!40000 ALTER TABLE `produtos` DISABLE KEYS */;
-INSERT INTO `produtos` VALUES (79,'CD - Ta Nervoso...Vai Pesca','cd002',16.5,'Ataide & Alexandre','cd002.gif'),(82,'TV 29','tv29philips',1925,'29 Tela Plana Estereo','tv001.gif'),(83,'CD - As Gargantas do Brasil','cd001',14.3,'Milionario e Jose Rico','cd001.gif'),(86,'Maquina fotografica','maqFot001',88,'Maquina fotografica','maqFot001.gif'),(85,'CD - Meu Reino Encantado','cd003',18,'Daniel','cd003.gif');
+INSERT INTO `produtos` VALUES (79,'Guitarra','guitar002',16.5,'Instrumentos','guitarra.png'),(82,'Violão Novo',1925,'Instrumento','Violão.jpg'),(83,'contra-baixo Novo','CT001',14.3,'Instrumento  ','contra-baixo.png'),(86,'Batera Nova','Bat001',88,'Instrumento','Bateria.gif'),(85,'Tomprete Novo','Tro003',18,'||Instrumento','trompete1.gif');
 /*!40000 ALTER TABLE `produtos` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;

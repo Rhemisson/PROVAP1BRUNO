@@ -7,7 +7,8 @@
         <link rel="stylesheet" type="text/css" href="pa.css" />
     </head>
     <body>
-        <form id="size" action="TratarLoginSrv" method="POST">
+        <img id="img" src="Imagens/Old-School-logotipo.jpg">
+        <form id="size" action="TratarLoginSrv" method="Post">
                <b>Login:</b>
                </br>
                <a href="WEB-INF/web.xml"></a>

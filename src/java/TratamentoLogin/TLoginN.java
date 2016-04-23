@@ -8,13 +8,17 @@ package TratamentoLogin;
 
 public class TLoginN {
 
-   public boolean verificaLogin(Usuario usuario) {
+   public boolean TratarLoginSrv(Usuario usuario) {
    
-        if("Rhemisson".equals(usuario.getUsuario()) && "123456".equals(usuario.getSenha())) {
-           
-
+        if ("Rhem".equals(usuario.getUsuario()) && "123".equals(usuario.getSenha())) {
+          
+      
         }
+    return false;    
+  }
+   
+}
         
-        return true;
-   }    
-}          
+       
+   
+        

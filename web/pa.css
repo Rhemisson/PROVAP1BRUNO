@@ -1,13 +1,21 @@
 head{
-   background-image: url("Imagens/Old-School-logotipo.jpg"); 
+   
+   
 }
-body{
+body{ 
     background-image: url("Imagens/Instrumentos.jpg");
    width:1200px;
    color:black;
    font-family:arial;
 }
-
+#back{
+   background: goldenrod; 
+    
+}
+#img{
+   width:180px; 
+    
+}
 #size{
 	position:absolute;
 	left:45%;
